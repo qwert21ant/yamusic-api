@@ -1,0 +1,22 @@
+{
+  "name": "yamusic-api",
+  "version": "0.0.1",
+  "description": "Yandex Music API",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "npx nodemon",
+    "build": "npx tsc",
+    "start": "npm run build && node dist/index.js",
+    "lint": "npx eslint ./src"
+  },
+  "author": "qwert21",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.2.1",
+    "@typescript-eslint/eslint-plugin": "^5.59.6",
+    "@typescript-eslint/parser": "^5.59.6",
+    "eslint": "^8.41.0",
+    "typescript": "^5.0.4"
+  }
+}
